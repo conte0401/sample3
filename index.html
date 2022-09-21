@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <title>MERSEA</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" alt="logo"></a>
+            <nav class="header__nav nav" id="js-nav">
+                <ul class="nav__items nav-items">
+                  <li class="nav-items__item"><a href="#">Top</a></li>
+                  <li class="nav-items__item"><a href="#info">Infomation</a></li>
+                  <li class="nav-items__item"><a href="#system">System</a></li>
+                  <li class="nav-items__item"><a href="#access">Access</a></li>
+                  <li class="nav-items__item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="header__hamburger hamburger" id="js-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div id="page-top" class="page-top">
+            <a href="#">
+                <p class="page-top__icon">▲</p>
+                <p class="page-top__text">TOP</p>
+            </a>
+        </div>
+        <div class="img">
+            <img src="img/contents1.jpg" alt="contents1">
+            <img src="img/contents2.jpg" alt="contents2">
+            <img src="img/contents3.jpg" alt="contents3">
+            <img src="img/contents4.jpg" alt="contents4">
+        </div>
+    </header>
+    <main">
+        <section id="info">
+            <h2>インフォメーション</h2>
+            <h3>infomation</h3>
+            <img class="mizu" src="img/mizu.jpg" alt="mizu">
+            <p class="concept">
+                「海」をイメージとした<br>
+                アットホームなお店
+            </p>
+            <img class="infoimg" src="img/info.jpg" alt="info">
+            <div class="text">
+                <p>当店「MERSEA（メルシー）」は、2018年6月にオープンいたしました。</p>
+                <p>店内は、海をイメージとした作りになっているため、清潔感があり「ほっと一息」ついていただける場所です。</p>
+            </div>
+        </section>
+        <div class="flex">
+            <img src="img/contents1.jpg" alt="1">
+            <img src="img/contents2.jpg" alt="2">
+            <img src="img/contents3.jpg" alt="3">
+            <img src="img/contents4.jpg" alt="4">
+        </div>
+        <section id="system">
+            <div class="ryokin">
+                <h2>料金システム</h2>
+            </div>
+            <h3>system</h3>
+            <div class="system-container">
+                <div class="menu">
+                  <p>
+                    お一人様から3コース120分カラオケ込み
+                  </p>
+                  <ul>
+                    <li>
+                      男性3,500円、女性3,000円
+                      <br class="menu-br">
+                      （鏡月、ウイスキー、ワイン、カクテル、日本酒）
+                    </li>
+                    <li>
+                      男性4,200、女性4,000円
+                      <br class="menu-br">
+                      （上記＋生ビール、麦焼酎付）
+                    </li>
+                    <li>
+                      男女5,000円
+                      <br class="menu-br">
+                      （上記＋バランタイン17年、グレンフィディック15年、ヂュワーズ12年、シーバスミズナラ、日本酒悠天付）
+                    </li>
+                  </ul>
+                </div>
+                <p class="plan">
+                  3種類の飲み放題プラン
+                </p>
+                <img src="img/mizu.jpg" alt="mizu">
+              </div>
+        </section>
+        <div class="reserve">
+          <a href="https://tol-app.jp/s/mersea" class="reserve-link">Reserve→</a>
+        </div>
+        <section id="access">
+          <div class="ac">
+            <h2>Access</h2>
+          </div>
+          <div class="ac-flex">
+            <div class="ac-info">
+              <p>〇営業時間 20:00～1:00</p>
+              <p>〇札幌市中央区南5条西5丁目9-1 ジャパンランドビル5F</p>
+              <p>〇011-252-7757</p>
+              <div class="reserve2">
+                <a href="https://tol-app.jp/s/mersea" class="reserve-link2">Reserve→</a>
+              </div>
+            </div>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46646.605463365064!2d141.350813!3d43.053784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50aa60a31bcc15d6!2z44K444Oj44OR44Oz44Op44Oz44OJ44OT44Or!5e0!3m2!1sja!2sjp!4v1661584967713!5m2!1sja!2sjp" height="450" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="co">
+            <h2>Contact</h2>
+          </div>
+          <form action="#" method="post">
+            <dl>
+                <dt><label for="name">氏名</label></dt>
+                <dd><input type="text" id="name" name="yourname"></dd>
+                <dt><label for="email">メールアドレス</label></dt>
+                <dd><input type="email" id="email" name="youremail"></dd>
+                <dt><label for="daimei">題名</label></dt>
+                <dd><input type="daimei" id="daimei" name="yourdaimei"></dd>
+                <dt><label for="message">メッセージ本文（任意）</label></dt>
+                <dd><textarea name="message" id="yourmessage" ></textarea></dd>
+            </dl>
+            <div class="button"><input type="submit" value="送信"></div>
+        </form>
+        </section>
+    </main>
+    <footer id="footer">
+      <p>Copyright 2022 MERSEA All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
